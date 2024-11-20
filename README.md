@@ -54,15 +54,12 @@ You can include the timing diagram from the simulation window showing the correc
 Once done, close the simulation by going to Simulation → "Close Simulation".
 
 ## Logic Diagram
-
 ![image](https://github.com/user-attachments/assets/d4ab4bc3-12b0-44dc-8edb-9d586d8ba856)
 
 ## Truth Table
-
 ![image](https://github.com/user-attachments/assets/c850506c-3f6e-4d6b-8574-939a914b2a5f)
 
 ## Verilog Code
-
 ## 4:1 MUX Gate-Level Implementation
 ```
 module multiplexer(s1,s0,a,b,c,d,y);
@@ -92,7 +89,6 @@ assign Y = (~S1 & ~S0 & I0) |
 endmodule
 ```
 ## OUTPUT:
-
 ![WhatsApp Image 2024-11-14 at 13 31 16_6cb44ef9](https://github.com/user-attachments/assets/c16b2bea-ddb5-495b-b446-b8954fce2061)
 
 ## 4:1 MUX Behavioral Implementation
@@ -114,7 +110,6 @@ end
 endmodule
 ```
 ## OUTPUT:
-
 ![WhatsApp Image 2024-11-14 at 13 33 46_011e9d5f](https://github.com/user-attachments/assets/3fec765d-39bb-41a9-aa2b-82709aad96fc)
 
 ## 4:1 MUX Structural Implementation
@@ -130,7 +125,6 @@ assign Y = (S1 == 0 && S0 == 0) ? a :
 endmodule
 ```
 ## OUTPUT:
-
 ![WhatsApp Image 2024-11-14 at 13 36 24_9e78e0b3](https://github.com/user-attachments/assets/4b754819-7d0e-4c80-a92a-795fa857274d)
 
 ## Testbench Implementation
